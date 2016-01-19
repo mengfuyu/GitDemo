@@ -24,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initView();
+        System.out.print("第二次测试添加代码");
+        String name = "张三";
     }
 
     public void initView(){
